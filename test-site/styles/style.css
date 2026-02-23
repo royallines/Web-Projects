@@ -1,0 +1,71 @@
+@font-face {
+  src: url("../fonts/Corleone.ttf") format("truetype");
+  font-family: "Corleone";
+}
+
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Roboto", sans-serif;
+}
+html {
+  background-color: #ffffff;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0 20px 20px 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+}
+
+input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  font-size: 1.6rem;
+  border-radius: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+}
+P {
+  text-align: center;
+  font-size: 3rem;
+  color: #000000;
+  font-family: "Corleone";
+}
+
+.logo {
+  background-image: url("../images/google.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add a hover effect to the logo */
+.logo:hover {
+  background-image: url("../images/firefox-icon.jpg");
+}

@@ -1,0 +1,13 @@
+.test {
+  display: block;
+  background-image: url("google.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.test:hover {
+  background-image: url("firefox-icon.jpg");
+}
