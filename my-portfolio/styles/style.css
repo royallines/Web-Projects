@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Corleone";
+  src: url("../Corleone.ttf") format("truetype");
+}
+body {
+  font-family: "Poppins", "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f3ff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0;
+  padding: 0;
+}
+
+.reverse-color.gradient-background {
+  background: linear-gradient(90deg, #8b5cf6 22%, #8a8a8a);
+}
+.gradient-background {
+  background: linear-gradient(90deg, #8a8a8a 22%, #8b5cf6);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+#top {
+  height: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.current-nav {
+  font-weight: 900;
+  font-size: 14px;
+  text-shadow: 0px 4px 4px #555555;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.logo {
+  font-family: "Corleone";
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  text-shadow: 0px 4px 4px #555555;
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  padding: 0 80px;
+  margin: 80px 0 40px 0;
+  gap: 40px;
+}
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: #8a8a8a;
+  line-height: 110px;
+  margin-bottom: 10px;
+}
+.first-name {
+  color: #000000;
+}
+.profile-pic {
+  width: 428px;
+  height: 464px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #8b5cf6;
+  margin-bottom: 10px;
+}
+
+.what-i-do {
+  padding: 0 80px;
+  margin-bottom: 90px;
+}
+
+.bck-top {
+  width: 50px;
+  margin: 0 0 10px 95%;
+  position: relative;
+}
+
+.contact-info {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.fa-brands {
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+
+footer div p {
+  font-size: 12px;
+  font-weight: bold;
+  color: antiquewhite;
+}
