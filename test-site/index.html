@@ -13,10 +13,36 @@
     <title>Test Site</title>
   </head>
   <body>
-    <!-- this div is for the logo-->
+    <!-- this div is for the logo
     <div class="logo"></div>
     <input type="text" placeholder="Search Product" />
     <div class="btn"><button>Search</button> <button>Bookmark</button></div>
-    <p>Godfather</p>
+    <p>Godfather</p> -->
+      <div class="wrap">
+        <div class="goal-counter">
+          <div class="team">
+            <h1>HOME</h1>
+            <h2 id="home-count" class="count"></h2>
+            <div class="point-btn">
+              <button onclick="pointOne()">+1</button>
+              <button onclick="pointTwo()">+2</button>
+              <button onclick="pointThree()">+3</button>
+            </div>
+          </div>
+
+          <div class="team">
+            <h1>GUEST</h1>
+            <h2 id="guest-count" class="count"></h2>
+            <div class="point-btn">
+              <button onclick="pointOneEl()">+1</button>
+              <button onclick="pointTwoEl()">+2</button>
+              <button onclick="pointThreeEl()">+3</button>
+            </div>
+          </div>
+        </div>
+        <button id="newgame" onclick="newgame()">NEWGAME</button>
+      </div>
+    </body>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

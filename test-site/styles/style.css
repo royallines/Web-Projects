@@ -2,7 +2,10 @@
   src: url("../fonts/Corleone.ttf") format("truetype");
   font-family: "Corleone";
 }
-
+@font-face {
+  font-family: counter;
+  src: url(../fonts/digital_counter_7.ttf);
+}
 html {
   /* px means "pixels". The base font size is now 10 pixels high */
   font-size: 10px;
@@ -10,17 +13,15 @@ html {
   font-family: "Roboto", sans-serif;
 }
 html {
-  background-color: #ffffff;
+  background-color: #dadada;
 }
 
 body {
-  width: 600px;
   margin: 0 auto;
-  background-color: #ffffff;
-  padding: 0 20px 20px 20px;
+  background-color: #dadada;
 }
 
-img {
+/* img {
   display: block;
   margin: 0 auto;
   max-width: 40%;
@@ -66,6 +67,88 @@ P {
 }
 
 /* Add a hover effect to the logo */
-.logo:hover {
-  background-image: url("../images/firefox-icon.jpg");
+/* .logo:hover { */
+/* background-image: url("../images/firefox-icon.jpg"); */
+/* } */
+.wrap {
+  width: 510px;
+  background-color: rgb(31, 8, 71);
+  padding: 20px 0px;
+  margin: 40px auto;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.goal-counter {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.team {
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 0px;
+}
+
+#home-count {
+  background-color: rgb(29, 29, 29);
+  width: 110px;
+  height: 60px;
+  color: crimson;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: counter;
+  padding: 5px 0px;
+}
+
+#home-count {
+  background-color: rgb(29, 29, 29);
+  width: 110px;
+  height: 60px;
+  color: rgb(15, 163, 2);
+  font-size: 60px;
+  font-weight: 900;
+  font-family: counter;
+  padding: 5px 0px;
+}
+
+#guest-count {
+  background-color: rgb(29, 29, 29);
+  width: 110px;
+  height: 60px;
+  color: crimson;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: counter;
+  padding: 5px 0px;
+}
+button {
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0);
+  color: white;
+
+  font-weight: 900;
+}
+
+#newgame {
+  border: 2px solid black;
+  background-color: #cc5500;
+  margin-top: 20px;
+  font-family: counter;
+}
+
+.count {
+  margin: 0px auto 20px auto;
+  justify-content: center;
+  text-align: center;
 }
